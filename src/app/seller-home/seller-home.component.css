@@ -1,0 +1,65 @@
+table {
+    text-align: left;
+    color: #333;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    min-width: 160px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.adjust-update-link {
+    margin-left: 10px;
+    font-size: 14px; 
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.adjust-update-link:hover {
+    color: #0056b3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6; 
+}
+
+table th {
+    font-weight: bold;
+    font-size: 18px;
+    color: #047dc8; 
+    background-color: #f8f9fa; 
+}
+
+table tr:hover {
+    background-color: #f0f8ff; 
+}
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #4caf50;
+    --bs-btn-border-color: #4caf50;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #157347;
+    --bs-btn-hover-border-color: #4caf50;
+    --bs-btn-focus-shadow-rgb: 60,153,110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4caf50;
+    --bs-btn-active-border-color: #13653f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #4caf50;
+    --bs-btn-disabled-border-color: #4caf50;
+}
+.btn-success :hover{
+background-color: #45a049;
+}

@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'San Francisco', 'Helvetica Neue', 'Helvetica', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.container {
+    max-width: 85rem;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.product-img {
+    width: 115%;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.color-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.color-label {
+    margin-right: 10px;
+}
+
+.product-color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.details {
+    margin-top: 145px;
+    margin-left: 160px;
+}
+
+.form-button {
+    margin-right: 1rem;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.quantity-group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.quantity-group button,
+.quantity-group input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.quantity-group button {
+    cursor: pointer;
+}
+
+.quantity-group button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.quantity-group input {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}

@@ -1,0 +1,9 @@
+.container{
+    max-width: 35rem;
+    margin-bottom: 20px;
+}
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    /* margin-top:-20px */
+  }
